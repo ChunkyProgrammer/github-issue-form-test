@@ -23,7 +23,7 @@ body:
       description: Please describe clear and concise of what the problem is.
       placeholder: I'm always frustrated when [...]
     validations:
-      required: false
+      required: true
   - type: textarea
     id: solution
     attributes: 
