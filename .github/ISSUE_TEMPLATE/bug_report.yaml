@@ -6,6 +6,7 @@ body:
   - type: checkboxes
     id: notduplicate
     attributes:
+      label: Guidelines
       description: By submitting this issue, you agree that you checked (to the best of your ability) that this issue is not a duplicate
       options:
         - label: This issue is not a duplicate
