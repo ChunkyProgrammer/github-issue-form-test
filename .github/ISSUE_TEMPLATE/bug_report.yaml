@@ -98,11 +98,13 @@ body:
       options:
         - label: Local API
         - label: Invidious API
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: additional
     attributes: 
       label: |
         **Additional context**
       description: Add any other context about the problem here.
+    validations:
+      required: false
