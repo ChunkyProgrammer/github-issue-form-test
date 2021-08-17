@@ -3,11 +3,17 @@ description: Report an issue or unexpected behavior that occurs within the appli
 title: "[Bug]: "
 labels: "bug"
 body:
+  - type: markdown
+    attributes:
+      value: |
+        **README: Before You Submit Your Issue**
+        - Please check other open and closed issues for a similar bug before reporting a new one.
+        - Make sure you are on the latest release of FreeTube before submitting an issue.
   - type: checkboxes
     id: notduplicate
     attributes:
       label: Guidelines
-      description: By submitting this issue, you agree that you checked (to the best of your ability) that this issue is not a duplicate
+      description: By submitting this issue, you agree that you followed the steps above
       options:
         - label: This issue is not a duplicate
           required: true
