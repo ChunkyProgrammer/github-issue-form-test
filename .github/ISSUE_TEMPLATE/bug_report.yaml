@@ -90,8 +90,8 @@ body:
       label: Primary API used
       multiple: true
       options:
-        - label: Local API
-        - label: Invidious API
+        - text: Local API
+        - text: Invidious API
     validations:
       required: false
   - type: textarea
