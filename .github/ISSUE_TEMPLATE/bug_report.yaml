@@ -10,17 +10,12 @@ body:
         - Please check other open and closed issues for a similar bug before reporting a new one.
         - Make sure you are on the latest release of FreeTube before submitting an issue.
   - type: checkboxes
-    id: notduplicate
+    id: guidelines
     attributes:
       label: Guidelines
-      description: By submitting this issue, you agree that you followed the steps above
+      description: By submitting this issue, you agree with the checkboxes below
       options:
         - label: This issue is not a duplicate
           required: true
-  - type: checkboxes
-    id: latestversion
-    attributes:
-      description: By submitting this issue, you agree that you are using the latest version
-      options:
-      - label: This issue is not a duplicate
-        required: true
+        - label: I'm using the latest version
+          required: true
