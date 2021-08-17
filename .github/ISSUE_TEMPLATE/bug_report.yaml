@@ -22,24 +22,21 @@ body:
   - type: textarea
     id: behavior
     attributes: 
-      label: |
-        **Behavior of the program**
+      label: Behavior of the program
       description: Please write a clear and concise description of what the bug is.
     validations:
       required: true
   - type: textarea
     id: expectedBehavior
     attributes: 
-      label: |
-        **Expected behavior**
+      label: Expected behavior
       description: Please describe clear and concise what you expected to happen.
     validations:
       required: true
   - type: textarea
     id: reproduce
     attributes: 
-      label: |
-        **To Reproduce**
+      label: Steps To Reproduce
       description: Please add all steps to reproduce the behavior
       placeholder: |
         1. Go to '...'
@@ -51,8 +48,7 @@ body:
   - type: input
     id: videoLink
     attributes:
-      label: |
-        **Link to video (if applicable)**
+      label: Link to video (if applicable)
       description: |
         If you refer to a problem which occurs within a specific video, or a range of videos, please link at least one here.
     validations:
@@ -60,8 +56,7 @@ body:
   - type: textarea
     id: screenshots
     attributes:
-      label: |
-        **Screenshots (if applicable)**
+      label: Screenshots (if applicable)
       description: If applicable, please add screenshots to help explain your problem. Especially console logs from the development tools are very helpful.
   - type: input
     id: os
