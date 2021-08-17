@@ -3,13 +3,13 @@ description: Report an issue or unexpected behavior that occurs within the appli
 title: "[Bug]: "
 labels: "bug"
 body:
-  -type: checkboxes
+  - type: checkboxes
   id: notduplicate
   description: By submitting this issue, you agree that you checked (to the best of your ability) that this issue is not a duplicate
   options:
     -label: This issue is not a duplicate
     required: true
-  -type: checkboxes
+  - type: checkboxes
   id: latestversion
   description: By submitting this issue, you agree that you are using the latest version
   options:
