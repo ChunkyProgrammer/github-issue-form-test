@@ -3,16 +3,15 @@ description: Report an issue or unexpected behavior that occurs within the appli
 title: "[Bug]: "
 labels: "bug"
 body:
-  - type: markdown
-    attributes:
-       value: |
-        **README: Before You Submit Your Issue**
-- Please check other open and closed issues for a similar bug before reporting a new one.
-- Make sure you are on the latest release of FreeTube before submitting an issue.
-- Remove this notice before posting.
   -type: checkboxes
   id: notduplicate
-  description: By submitting this issue, you agree that you insured (to the best of your ability) that this issue is not a duplicate
+  description: By submitting this issue, you agree that you checked (to the best of your ability) that this issue is not a duplicate
+  options:
+    -label: This issue is not a duplicate
+    required: true
+  -type: checkboxes
+  id: latestversion
+  description: By submitting this issue, you agree that you are using the latest version
   options:
     -label: This issue is not a duplicate
     required: true
