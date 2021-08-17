@@ -11,7 +11,7 @@ body:
       options:
         - label: This issue is not a duplicate
           required: true
-   - type: checkboxes
+  - type: checkboxes
     id: latestversion
     attributes:
       description: By submitting this issue, you agree that you are using the latest version
