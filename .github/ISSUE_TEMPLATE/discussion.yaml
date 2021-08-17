@@ -23,6 +23,8 @@ body:
           required: false
         - label: Other
           required: false
+    validation:
+      required: true
   - type: textarea
     id: discussion
     attributes: 
