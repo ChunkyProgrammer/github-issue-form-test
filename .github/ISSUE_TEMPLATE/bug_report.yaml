@@ -1,6 +1,5 @@
 name: Bug Report
 description: Report an issue or unexpected behavior that occurs within the application
-title: "[Bug]: "
 labels: "bug"
 body:
   - type: markdown
@@ -94,7 +93,7 @@ body:
         - label: Local API
         - label: Invidious API
     validations:
-      required: true
+      required: false
   - type: textarea
     id: additional
     attributes: 
