@@ -4,14 +4,14 @@ title: "[Bug]: "
 labels: "bug"
 body:
   - type: checkboxes
-  id: notduplicate
-  description: By submitting this issue, you agree that you checked (to the best of your ability) that this issue is not a duplicate
-  options:
-    - label: This issue is not a duplicate
-    required: true
+    id: notduplicate
+    description: By submitting this issue, you agree that you checked (to the best of your ability) that this issue is not a duplicate
+    options:
+      - label: This issue is not a duplicate
+        required: true
   - type: checkboxes
-  id: latestversion
-  description: By submitting this issue, you agree that you are using the latest version
-  options:
+    id: latestversion
+    description: By submitting this issue, you agree that you are using the latest version
+    options:
     - label: This issue is not a duplicate
-    required: true
+      required: true
