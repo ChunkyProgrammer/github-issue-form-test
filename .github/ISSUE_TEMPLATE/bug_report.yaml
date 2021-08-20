@@ -91,10 +91,10 @@ body:
       description: What is the primary API being used?
       multiple: false
       options:
-        - api: Local API
-        - api: Invidious API
+        - Local API
+        - Invidious API
     validations:
-      required: false
+      required: true
   - type: textarea
     id: additional
     attributes: 
