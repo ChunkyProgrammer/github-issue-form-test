@@ -9,9 +9,9 @@ body:
       description: Please ensure you've completed all of the following.
       options:
         - label: I have searched the [issue tracker](https://github.com/FreeTubeApp/FreeTube/issues) for a bug report that matches the one i want to file, without success.
-            required: true
+          required: true
         - label: I have encountered this bug in the latest nightly build.
-            required: true
+          required: true
   - type: input
     attributes:
       label: FreeTube Nightly Build
