@@ -5,26 +5,26 @@ labels: "bug"
 body:
 - type: checkboxes
   attributes:
-	label: Guidelines
-	description: Please ensure you've completed all of the following.
+	  label: Guidelines
+	  description: Please ensure you've completed all of the following.
     options:
-		- label: I have searched the [issue tracker](https://github.com/FreeTubeApp/FreeTube/issues) for a bug report that matches the one i want to file, without success.
+	    - label: I have searched the [issue tracker](https://github.com/FreeTubeApp/FreeTube/issues) for a bug report that matches the one i want to file, without success.
           required: true
-    - label: I have encountered this bug in the latest nightly build.
+      - label: I have encountered this bug in the latest nightly build.
           required: true
 - type: input
-    attributes:
-	    label: FreeTube Nightly Build
-	    description: What Nightly Build of FreeTube are you using? Go to the about page in the FreeTube application.  
-	    placeholder: v0.14.0 build 1234
-    validations:
-	    required: true
+  attributes:
+	  label: FreeTube Nightly Build
+	  description: What Nightly Build of FreeTube are you using? Go to the about page in the FreeTube application.  
+	  placeholder: v0.14.0 build 1234
+  validations:
+	  required: true
 - type: input
-    attributes:
-      label: 'Installation Method (If applicable)'
-      placeholder: 'e.g. Portable, .exe, .deb, .AppImage, FlatHub'
-    validations:
-      required: false
+  attributes:
+    label: 'Installation Method (If applicable)'
+    placeholder: 'e.g. Portable, .exe, .deb, .AppImage, FlatHub'
+  validations:
+    required: false
 - type: dropdown
   attributes: 
     label: Primary API used
