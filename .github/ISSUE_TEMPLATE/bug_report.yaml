@@ -10,7 +10,7 @@ body:
       options:
         - label: I have searched the [issue tracker](https://github.com/FreeTubeApp/FreeTube/issues) for a bug report that matches the one i want to file, without success.
           required: true
-        - label: I have encountered this bug in the latest nightly build.
+        - label: I have encountered this bug in the latest [nightly build](https://docs.freetubeapp.io/development/nightly-builds).
           required: true
   - type: input
     attributes:
