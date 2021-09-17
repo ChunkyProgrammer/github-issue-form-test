@@ -10,8 +10,8 @@ body:
       options:
         - label: I have searched the [issue tracker](https://github.com/FreeTubeApp/FreeTube/issues) for a bug report that matches the one i want to file, without success.
           required: true
-        - label: I have encountered this bug in the latest [nightly build](https://docs.freetubeapp.io/development/nightly-builds).
-          required: true
+        - label: I have tested the [nightly build](https://docs.freetubeapp.io/development/nightly-builds) and the problem still persists.
+          required: false
   - type: input
     attributes:
       label: FreeTube Nightly Build
