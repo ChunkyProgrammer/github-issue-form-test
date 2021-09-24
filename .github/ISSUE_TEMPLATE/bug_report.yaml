@@ -95,7 +95,7 @@ body:
           required: false
   - type: dropdown
     attributes:
-      label: 'bug labels'
+      label: 'Issue Labels'
       multiple: true
       options:
         - visual bug
