@@ -2,11 +2,9 @@ name: "Set Issue Label and Assignee"
 on:
   issues:
     types: [opened]
-  pull_request:
-    typed: [opened]
 
 jobs:
-  test:
+  label_issue:
     runs-on: ubuntu-latest
     steps:
       - uses: Naturalclar/issue-action@v2.0.2
