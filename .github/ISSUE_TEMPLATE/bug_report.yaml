@@ -96,13 +96,6 @@ body:
         - text/string issue
         - content not loading
         - accessibility issue
-        - usability issue
-        - causes crash
-        - feature stopped working
-        - inconsistent behavior
-        - data loss
-        - race condition
-        - only happens in developer mode
     validations:
       required: false
         
