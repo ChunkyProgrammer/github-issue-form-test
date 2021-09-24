@@ -1,0 +1,16 @@
+name: "Set Issue Label and Assignee"
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    typed: [opened]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Naturalclar/issue-action@v2.0.2
+        with:
+          body: "both"
+          parameters: '[ {"keywords": ["visual bug"], "labels": ["Visual bug"]}, {"keywords": ["keyboard control not working"], "labels": ["keyboard control not working"]}, {"keywords": ["text/string issue"], "labels": ["text/string issue"]}, {"keywords": ["content not loading"], "labels": ["content not loading"]}, {"keywords": ["accessibility issue"], "labels": ["accessibility issue"]}]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
