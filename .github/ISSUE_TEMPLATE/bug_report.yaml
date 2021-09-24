@@ -86,4 +86,23 @@ body:
       options:
         - label: I have encountered this bug in the latest [nightly build](https://docs.freetubeapp.io/development/nightly-builds).
           required: false
+  - type: dropdown
+    attributes:
+      label: 'bug labels'
+      multiple: true
+      options:
+        - visual bug
+        - keyboard control not working
+        - text/string issue
+        - content not loading
+        - accessibility issue
+        - usability issue
+        - causes crash
+        - feature stopped working
+        - inconsistent behavior
+        - data loss
+        - race condition
+        - only happens in developer mode
+    validations:
+      required: false
         
